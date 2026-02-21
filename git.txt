@@ -1,0 +1,49 @@
+¿Qué es GIT?
+
+Git es un sistema de control de versiones distribuido que permite registrar y gestionar los cambios en archivos y proyectos a lo largo del tiempo. Fue creado por Linus Torvalds y permite a los desarrolladores llevar un historial completo del código, colaborar en equipo y volver a versiones anteriores si es necesario.
+
+2. ¿Cuáles son los comandos más importantes y para qué sirven?
+
+Algunos comandos clave de Git y su función:
+
+git init: Inicializa un repositorio Git en una carpeta.
+
+git status: Muestra el estado de los archivos (modificados, sin rastrear, etc.).
+
+git add: Añade archivos al área de preparación (staging) para su próximo commit.
+
+git commit: Guarda los cambios preparados en el historial de versiones.
+
+git log: Muestra el historial de commits.
+
+git clone: Copia un repositorio existente (local o remoto).
+
+git push: Sube los cambios locales a un repositorio remoto (por ejemplo en GitHub).
+
+git pull: Descarga los cambios del repositorio remoto y los fusiona con tu local.
+
+3. ¿Cuál es la diferencia entre Git y GitHub?
+
+Git es el sistema de control de versiones que funciona en tu máquina para guardar y organizar cambios en tu proyecto.
+
+GitHub es una plataforma de alojamiento remoto de repositorios que utiliza Git para gestionar versiones y facilita cosas como colaboración, push/pull de cambios y trabajo en equipo.
+
+4. Enumere los comandos para subir cambios a un repositorio
+
+Los pasos básicos para enviar cambios a GitHub suelen ser:
+
+git init – iniciar el repositorio local.
+
+git add . – preparar todos los cambios.
+
+git commit -m "mensaje" – confirmar los cambios con un mensaje.
+
+git remote add origin <URL-del-repo> – conectar con tu repo en GitHub.
+
+git push -u origin main – subir los cambios a la rama main. (actualmente la rama principal suele llamarse “main”)
+
+Estos pasos enlazan tu proyecto local con el repositorio público en GitHub.
+
+5. ¿Qué es una branch?
+
+Una branch (rama) es una versión alternativa del código dentro del mismo repositorio. Permite trabajar en características o cambios nuevos sin afectar la rama principal (main/master). Más tarde, puedes unir (merge) esa rama con la principal.
